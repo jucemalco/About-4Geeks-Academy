@@ -1,0 +1,127 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julio César
+    last_name: Maldonado Cortés
+    
+    # Define yourself in 4-5 words
+    motto: Be Nice
+    
+    # focus
+    focus: <Time to Code/>
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Pasión por la infraestructura tecnológica. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.istockphoto.com/photos/red-fox-vulpes-vulpes-picture-id516318760?k=6&m=516318760&s=612x612&w=0&h=GoVuK4TTDxCOEAMzykKCljsbSeZ9u139x7-Q77YrVMw=
+
+    # Contact Information
+    email: jucemalco@gmail.com #optional
+    phone: +569 58 50 83 19 #optional
+    website: www.techguy.com #optional
+    linkedin: www.linkedin.com/in/jucemalco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DiegoPS-ZRR
+    
+    twitter: #optional
+    stack-overflow:  # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advance Level B2+
+
+    # Interests or hobies
+    interests:
+      - item: Martial Arts
+
+      - item: Geek things
+
+      - item: Food
+
+# Your previous education
+education:
+    - degree: Ingeniero Telecomunicaciones
+      university: Duoc UC 
+      # optional
+      university_logo: https://medios.ucr.ac.cr/medios/imagenes/2012/escudo_p.jpg
+      time: 2008 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Director Proyecto TI
+      time: 2015 - 2022
+      company: Compañia Santa Teresa de Jesús
+      # optional
+      company_logo:
+      details: |
+        Recolección de requerimientos del cliente (Colegio).
+        Diseño de solución tecnológica para el Colegio
+        Implementación de sistema de redes de soporte en colegio
+        Docencia a profesores, estudiantes, apoderados para inmesión 
+        en sistema de gestión plataforma educativa.
+        Instalación de Servidor Proxy con filtro web y contenido.
+        
+    - role: Docente Taller de Hardware y Software
+      time: 2013 - 2015
+      company: Liceo Luis Alberto Vera 
+      # optional
+      company_logo: 
+      details: 
+      Profesor para estudiantes de Administración y Prevención de Riesgo.
+      Detección de problemas en Hardware, Officemática.
+       
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: IG Feed
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Sketch Up
+        level: 80%
+
+      - name: HTML & CSS
+        level: 70%
+
+      - name: Javascript & jQuer
+        level: 10%
+
+      - name: React
+        level: 5%
+
+      - name: Javascript & jQuery
+        level: 5%
+
+      - name: Photoshop
+        level: 40%
